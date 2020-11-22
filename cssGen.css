@@ -148,6 +148,122 @@ hr{
 /* Fin page connexion */
 
 
+
+/* Page créer un compte*/
+
+.formInscri fieldset{
+    width: 33%;
+    margin: 50px auto;
+    background-color: #d1cc9d;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.formInscri legend{
+    font-weight: bold;
+}
+
+.formInscri p{
+    text-align: left;
+}
+
+.formInscri a{
+    color: black;
+}
+
+.formInscri a:hover{
+    color: black;
+}
+
+/* Fin page créer un compte*/
+
+
+/* Page questionForm */
+
+.questionForm fieldset{
+    width: 33%;
+    margin: 50px auto;
+    background-color: #d1cc9d;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.questionForm legend{
+    font-weight: bold;
+}
+
+.questionForm p{
+    text-align: left;
+}
+
+.questionForm a{
+    color: black;
+}
+
+.questionForm a:hover{
+    color: black;
+}
+
+.questionForm textarea{
+    width: 80%;
+    margin: auto;
+}
+
+/* Fin page questionForm */
+
+
+/* Page mon compte */
+
+.account h2,h3,p{
+    text-indent: 4%;
+}
+
+.editAccountForm fieldset{
+    width: 33%;
+    margin: 50px 15px;
+    background-color: #d1cc9d;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.editAccountForm legend{
+    font-weight: bold;
+}
+
+.editAccountForm p{
+    text-align: left;
+}
+
+.editAccountForm a{
+    color: black;
+}
+
+.editAccountForm a:hover{
+    color: black;
+}
+
+.footer-monCompte{
+    position: fixed;
+    bottom: 0%;
+    margin: 0%;
+    margin-top: 50px;
+    box-shadow: 0px -3px -2px darkred;
+    background-color: darkred;
+    width: 100%;
+}
+
+.footer-monCompte nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-monCompte nav p{
+    padding: 0 10%;
+}
+
+/* Fin page mon compte */
+
+
 .footer{
     margin: 0%;
     margin-top: 50px;

@@ -83,7 +83,7 @@ hr{
 }
 
 .miniaturePodcast{
-    width: 50%;
+    width: 25%;
     padding-right:10px ;
 }
 
@@ -263,6 +263,13 @@ hr{
 
 /* Fin page mon compte */
 
+/* Page index */
+
+.presentation{
+    margin-bottom: 3%;
+}
+
+/* Fin page index */
 
 .footer{
     margin: 0%;

@@ -297,4 +297,49 @@ hr{
 
 /* Adaptation responsive */
 
+@media (max-width: 1000px){
+    .bandeau nav ul li{
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 850px){
+    .bandeau a{
+        font-size: 1.2em;
+    }
+
+    .miniaturePodcast{
+        width: 50%;
+        padding-right:10px ;
+    }    
+}
+
+@media (max-width: 730px){
+    .bandeau a{
+        font-size: 1em;
+    }
+
+    .bandeau nav ul li{
+        padding-left: 22px;
+    }
+
+    .corps{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 600px){
+    .bandeau nav #logoETIQ{
+        display: none;
+    }
+
+    .miniaturePodcast{
+        width: 100%;
+    }
+
+    .podcastSec{
+        flex-wrap: wrap;
+    }
+}
+
 /* Fin adaptation responsive */

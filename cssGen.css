@@ -31,7 +31,7 @@ a:visited{
     text-decoration: underline;
 }
 
-.bandeau, .footer {
+.bandeau{
     background-color: darkred;
     width: 100%;
 }
@@ -293,18 +293,34 @@ hr{
 /* Fin pages mentionsLegales et politiqueConfid */
 
 .footer{
-    margin: 0%;
-    margin-top: 50px;
-    box-shadow: 0px -3px -2px darkred;
+    margin-top: 100px;
 }
 
 .footer nav {
+    box-shadow: 0px -3px 2px darkred ;
+    background-color: darkred;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.footer nav ul{
+    list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
-.footer nav p{
-    padding: 0 10%;
+.footer nav ul li{
+    margin: 10px 25px;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: lemonchiffon;
+    text-decoration: underline;
 }
 
 /* Adaptation responsive */
